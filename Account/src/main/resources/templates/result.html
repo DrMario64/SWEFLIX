@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Successfully created account!</h1>
+    <p th:text="'username: ' + ${account.content}" />
+    <p th:text="'accountID: ' + ${account.getId()}" />
+    <a href="/signup">View movies</a>
+</body>
+</html>

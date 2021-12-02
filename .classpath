@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Account/.mvn/wrapper"/>
+	<classpathentry kind="src" path="Account/src/main/java"/>
+	<classpathentry kind="src" path="Movies/.mvn/wrapper"/>
+	<classpathentry kind="src" path="Movies/src/main/java"/>
+	<classpathentry kind="src" path="Movies/src/test/java"/>
+	<classpathentry kind="output" path="Account/target/classes"/>
+</classpath>

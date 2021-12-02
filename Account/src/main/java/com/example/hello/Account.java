@@ -5,21 +5,18 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-
 @Entity
-public class Account{
-
+public class Account{	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long accountID;
-	private Long sid;
 	private String content;
 	private String password;
 
 	protected Account() {}
 	
-	public Account(Long sid, String content) {
-		this.sid = sid;
+	public Account(String content) {
+		//this.sid = sid;
 		this.content = content;
 	}
 	  
@@ -32,13 +29,6 @@ public class Account{
 
 	public Long getId() {
 		return accountID;
-	}
-
-	public Long getSid() {
-		return sid;
-	}
-	public void setSid(Long sid) {
-		this.sid = sid;
 	}
 
 	public String getContent() {
